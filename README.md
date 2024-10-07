@@ -1,5 +1,8 @@
 # topicos-ia-2024-1er-parcial
 
+## Indicaciones
+
+El modelo utilizado por default es el que vino con el proyecto. Para usar el otro modelo, indicar en el endpoint con un número distinto de 1. El modelo costumizado solamente se entrenó para detectar armas de fuego en general, no para diferenciar entre pistol y rifle, por lo cual no se debe utilizar este modelo en el endpoint /guns.
 
 ## instrucciones
 
