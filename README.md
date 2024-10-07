@@ -3,7 +3,7 @@
 ## Indicaciones
 
 El modelo utilizado por default es el que vino con el proyecto. Para usar el otro modelo, indicar en el endpoint con un número distinto de 1.  
-Existen dos modelos costumizados. El modelo best_gun_detector solamente se entrenó para detectar armas de fuego en general, no para diferenciar entre pistol y rifle, por lo cual no se debe utilizar este modelo en el endpoint /guns. El modelo o_best_gun_detector.pt se entrenó para diferenciar entre pistols y rifles.
+Existen dos modelos costumizados. El modelo best_gun_detector solamente se entrenó para detectar armas de fuego en general, no para diferenciar entre pistol y rifle, por lo cual no se debe utilizar este modelo en el endpoint /guns. El modelo o_best_gun_detector.pt se entrenó para diferenciar entre pistols y rifles. El cambio de modelo costumizado debe hacerse en config.`y.
 
 ## instrucciones
 
