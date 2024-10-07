@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     api_name: str = "Gun Detection service"
     revision: str = "local"
     od_model_path: str = "models/best.pt"
-    custom_model_path:str = "models/best_gun_detector.pt"
+    custom_model_path:str = "models/o_best_gun_detector.pt"
     seg_model_path: str = "yolov8n-seg.pt"
     log_level: str = "DEBUG"
 
